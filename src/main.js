@@ -3,6 +3,8 @@ import {createPinia} from 'pinia'
 import App from './App.vue'
 import router from './router'
 import mavonEditor from 'mavon-editor'
+import 'mavon-editor/dist/css/index.css'
+import './assets/css/github-markdown.css'
 
 import './assets/css/nucleo-icons.css'
 import './assets/css/nucleo-svg.css'
