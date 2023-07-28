@@ -1,0 +1,15 @@
+.vscode
+
+dist
+
+node_modules/*
+
+src/assets/*
+
+.eslintrc.js
+
+.eslintrc.cjs
+
+.gitignore
+
+vite.config.js
