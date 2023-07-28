@@ -63,8 +63,8 @@ vue-material-kit-2
     │   ├── router
     │   ├── stores
     │   ├── views
-    │   │   ├── LandingPages
-    │   │   └── Presentation
+    │   │   ├── Index
+    │   │   └── LandingPages
     │   ├── App.vue
     │   ├── main.js
     │   └── material-kit.js
