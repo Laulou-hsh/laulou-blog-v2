@@ -6,7 +6,7 @@ import NavbarDefault from '../..//examples/navbars/NavbarDefault.vue'
 import DefaultFooter from '../../examples/footers/FooterDefault.vue'
 import Header from '../../examples/Header.vue'
 
-import IndexCounter from './Components/IndexCounter.vue'
+// import IndexCounter from './Components/IndexCounter.vue'
 import IndexExample from './Components/IndexExample.vue'
 import data from './Sections/Data/designBlocksData'
 
@@ -37,7 +37,7 @@ onUnmounted(() => {
       <div class="container">
         <div class="row">
           <div class="col-lg-7 text-center mx-auto position-relative">
-            <h1 class="text-danger pt-3 mt-n5 me-2" :style="{display: 'inline-block '}">捞佬</h1>
+            <h1 class="text-danger pt-3 mt-n5 me-2" :style="{display: 'inline-block '}">捞佬网</h1>
             <p class="lead text-danger px-5 mt-3" :style="{fontWeight: '500'}">
               一个普通的人，一个普通的程序员，一个普通的游戏玩家。
             </p>
@@ -48,7 +48,7 @@ onUnmounted(() => {
   </Header>
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
-    <IndexCounter />
+    <!-- <IndexCounter /> -->
     <IndexExample :data="data" />
   </div>
   <DefaultFooter />

@@ -48,6 +48,7 @@ defineProps({
       </div>
       <div class="row">
         <div class="col-8 mx-auto text-center mt-1">
+          <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022137351号-1</a>
           <p class="mb-0 text-secondary">All rights reserved. Copyright © {{ new Date().getFullYear() }} Laulou</p>
         </div>
       </div>

@@ -35,6 +35,7 @@ defineProps({
       <div class="row">
         <div class="col-12">
           <div class="text-center">
+            <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022137351号-1</a>
             <p class="text-dark my-4 text-sm font-weight-normal">
               All rights reserved. Copyright © {{ new Date().getFullYear() }} Laulou.
             </p>
