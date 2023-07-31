@@ -8,6 +8,7 @@ import importToCDN from 'vite-plugin-cdn-import'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/',
   plugins: [
     vue(),
     visualizer({ open: true }),
@@ -61,6 +62,8 @@ export default defineConfig({
   build: {
     target: 'es2020',
     minify: 'esbuild',
+    outDir: 'dist',
+    sourcemap: false,
     rollupOptions: {
       output: {
         chunkFileNames: 'js/[name]-[hash].js', // 引入文件名的名称

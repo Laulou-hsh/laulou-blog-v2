@@ -1,13 +1,14 @@
 <template>
   <div v-show="isShow" @click="scrollToTop" class="fixed-plugin">
     <div class="px-3 py-2 fixed-plugin-button text-dark position-fixed">
-      <i class="material-icons py-2">vertical_align_top</i>
+      <img :src="backToTop" class="material-icons py-2" />
     </div>
   </div>
 </template>
 
 <script setup>
 import {ref, onMounted, onUnmounted} from 'vue'
+import backToTop from '@/assets/img/ic_public_backtotop.svg'
 
 const isShow = ref(false)
 const scrollThreshold = 300

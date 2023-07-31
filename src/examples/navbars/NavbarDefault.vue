@@ -13,6 +13,9 @@ import NavItem from './NavItem.vue'
 import ArrDark from '@/assets/img/down-arrow-dark.svg'
 // import downArrow from '@/assets/img/down-arrow.svg'
 import DownArrWhite from '@/assets/img/down-arrow-white.svg'
+import Dashboard from '@/assets/img/ic_gallery_collage.svg'
+import File from '@/assets/img/ic_public_file_filled.svg'
+import Article from '@/assets/img/ic_public_drawer_filled.svg'
 
 const props = defineProps({
   transparent: {
@@ -128,7 +131,7 @@ watch(
               data-bs-toggle="dropdown"
               :aria-expanded="ariaExpanded"
             >
-              <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">dashboard</i>
+              <img :src="Dashboard" class="material-icons opacity-6 me-2 text-md" :class="getTextColor()" />
               页面
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-2 d-lg-block d-none" />
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
@@ -168,7 +171,7 @@ watch(
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">view_day</i>
+              <img :src="File" class="material-icons opacity-6 me-2 text-md" :class="getTextColor()" />
               文章
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-2 d-lg-block d-none" />
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
@@ -184,7 +187,7 @@ watch(
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              <i class="material-icons opacity-6 me-2 text-md" :class="getTextColor()">article</i>
+              <img :src="Article" class="material-icons opacity-6 me-2 text-md" :class="getTextColor()" />
               原著文档
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-2 d-lg-block d-none" />
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />

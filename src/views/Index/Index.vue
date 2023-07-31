@@ -2,7 +2,7 @@
 import {onMounted, onUnmounted} from 'vue'
 
 //example components
-import NavbarDefault from '../..//examples/navbars/NavbarDefault.vue'
+import NavbarDefault from '../../examples/navbars/NavbarDefault.vue'
 import DefaultFooter from '../../examples/footers/FooterDefault.vue'
 import Header from '../../examples/Header.vue'
 
@@ -10,7 +10,7 @@ import Header from '../../examples/Header.vue'
 import IndexExample from './Components/IndexExample.vue'
 import data from './Sections/Data/designBlocksData'
 
-import pns from '@/assets/img/阿尔法.jpg'
+const pns = 'https://data.laulou.cn/images/bg9.jpg'
 
 //hooks
 const body = document.getElementsByTagName('body')[0]
@@ -33,7 +33,7 @@ onUnmounted(() => {
     </div>
   </div>
   <Header>
-    <div class="page-header min-vh-100" :style="`background-image: url(${pns})`" loading="lazy">
+    <div class="page-header min-vh-100" :style="`background-image: url(${pns})`" loading="lazy" decoding="async">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 text-center mx-auto position-relative">

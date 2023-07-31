@@ -13,7 +13,7 @@ import image from '@/assets/img/city-profile.jpg'
 <template>
   <DefaultNavbar transparent />
   <Header>
-    <div class="page-header min-height-400" :style="{backgroundImage: `url(${image})`}" loading="lazy">
+    <div class="page-header min-height-400" :style="{backgroundImage: `url(${image})`}" loading="lazy" decoding="async">
       <span class="mask bg-gradient-dark opacity-8"></span>
     </div>
   </Header>

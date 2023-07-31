@@ -29,7 +29,7 @@ defineProps({
   <div class="card card-plain">
     <div class="card-header p-0 position-relative">
       <a class="d-block blur-shadow-image">
-        <img :src="image" :alt="title" class="img-fluid shadow border-radius-lg" loading="lazy" />
+        <img :src="image" :alt="title" class="img-fluid shadow border-radius-lg" loading="lazy" decoding="async" />
       </a>
     </div>
     <div class="card-body px-0">

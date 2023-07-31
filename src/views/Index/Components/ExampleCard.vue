@@ -61,7 +61,7 @@ export default {
       :data-bs-placement="'top'"
       :title="null"
     >
-      <img class="w-100" :src="props.image" :alt="props.title" loading="lazy" />
+      <img class="w-100" :src="props.image" :alt="props.title" loading="lazy" decoding="async" />
     </div>
     <div class="mt-2 ms-2">
       <h6 class="mb-0">{{ props.title }}</h6>

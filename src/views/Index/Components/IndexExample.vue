@@ -48,7 +48,7 @@ export default {
 </script>
 
 <template>
-  <section class="my-5 py-5">
+  <section class="mb-5 pb-5">
     <div class="container mt-sm-5 mt-3">
       <div
         v-for="({heading, description, items}, index) in data"
