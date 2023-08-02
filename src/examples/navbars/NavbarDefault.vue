@@ -140,14 +140,14 @@ watch(
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
             </a>
             <div
-              class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
+              class="dropdown-menu dropdown-menu-animation dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
               aria-labelledby="dropdownMenuPages"
             >
               <div class="row d-none d-lg-block">
                 <div class="col-12 px-4 py-2">
                   <div class="row">
                     <div class="position-relative">
-                      <div class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+                      <div class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-0">
                         关于
                       </div>
                       <RouterLink :to="{name: 'author'}" class="dropdown-item border-radius-md">
@@ -158,7 +158,7 @@ watch(
                 </div>
               </div>
               <div class="d-lg-none">
-                <div class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-0">主页</div>
+                <div class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">主页</div>
                 <RouterLink :to="{name: 'author'}" class="dropdown-item border-radius-md">
                   <span>作者</span>
                 </RouterLink>
