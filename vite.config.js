@@ -63,6 +63,8 @@ export default defineConfig({
     target: 'es2020',
     minify: 'esbuild',
     outDir: 'dist',
+    assetsDir: 'assets',
+    assetsInlineLimit: 4096, // 小于4kb的资源内联
     sourcemap: false,
     rollupOptions: {
       output: {
@@ -80,8 +82,8 @@ export default defineConfig({
           verbose: true, // 是否在控制台中输出压缩结果
           disable: false,
           threshold: 10240, // 如果体积大于阈值，将被压缩，单位为b，体积过小时请不要压缩，以免适得其反
-          algorithm: 'brotliCompress', // 压缩算法，可选['gzip'，' brotliccompress '，'deflate '，'deflateRaw']
-          ext: '.br', // 压缩后缀名
+          algorithm: 'gzip', // 压缩算法，可选['gzip'，' brotliccompress '，'deflate '，'deflateRaw']
+          ext: '.gz', // 压缩后缀名
           deleteOriginFile: false, // 源文件压缩后是否删除
         }),
       ],

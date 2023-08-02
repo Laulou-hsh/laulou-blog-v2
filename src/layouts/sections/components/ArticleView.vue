@@ -6,10 +6,6 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  title: {
-    type: String,
-    required: true,
-  },
   height: {
     type: String,
     default: '',

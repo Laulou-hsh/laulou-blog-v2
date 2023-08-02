@@ -39,7 +39,7 @@ onUnmounted(() => {
           <div class="col-lg-7 text-center mx-auto position-relative">
             <h1 class="text-danger pt-3 mt-n5 me-2" :style="{display: 'inline-block '}">捞佬网</h1>
             <p class="lead text-danger px-5 mt-3" :style="{fontWeight: '500'}">
-              一个普通的人，一个普通的程序员，一个普通的游戏玩家。
+              一个普通的人，一个普通的程序员，一个普通的玩家。
             </p>
           </div>
         </div>

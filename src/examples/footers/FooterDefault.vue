@@ -16,16 +16,7 @@ defineProps({
     type: Array,
     icon: String,
     link: String,
-    default: () => [
-      {
-        icon: '<i class="fab fa-twitter text-lg opacity-8"></i>',
-        link: 'https://twitter.com/creativetim',
-      },
-      {
-        icon: '<i class="fab fa-github text-lg opacity-8"></i>',
-        link: 'https://github.com/creativetimofficial',
-      },
-    ],
+    default: () => [],
   },
 })
 </script>
