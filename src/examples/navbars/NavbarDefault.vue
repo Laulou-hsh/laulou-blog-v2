@@ -93,9 +93,9 @@ watch(
   <nav
     class="navbar navbar-expand-lg top-0"
     :class="{
-      'z-index-3 w-100 shadow-none navbar-transparent position-absolute my-3': props.transparent,
-      'my-1 blur border-radius-lg z-index-3 py-2 shadow py-2 start-0 end-0 mx-4 position-absolute': props.sticky,
-      'navbar-light bg-white py-3': props.light,
+      ' z-index-3 w-100 shadow-none navbar-transparent position-absolute my-3': props.transparent,
+      ' my-1 blur border-radius-lg z-index-3 py-2 shadow py-2 start-0 end-0 mx-4 position-absolute': props.sticky,
+      ' navbar-light bg-white py-3': props.light,
       ' navbar-dark bg-gradient-dark z-index-3 py-3': props.dark,
     }"
   >
@@ -140,10 +140,10 @@ watch(
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
             </a>
             <div
-              class="dropdown-menu dropdown-menu-animation dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
+              class="dropdown-menu dropdown-menu-animation dropdown-md border-radius-xl mt-0 mt-lg-3"
               aria-labelledby="dropdownMenuPages"
             >
-              <div class="row d-none d-lg-block">
+              <div class="row d-none d-lg-block p-3">
                 <div class="col-12 px-4 py-2">
                   <div class="row">
                     <div class="position-relative">
@@ -157,7 +157,7 @@ watch(
                   </div>
                 </div>
               </div>
-              <div class="d-lg-none">
+              <div class="d-lg-none mx-4">
                 <div class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">主页</div>
                 <RouterLink :to="{name: 'author'}" class="dropdown-item border-radius-md">
                   <span>作者</span>

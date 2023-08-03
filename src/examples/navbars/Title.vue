@@ -18,8 +18,8 @@ const props = defineProps({
   },
 })
 
-const desktop = ' d-none d-md-block font-weight-bolder ms-sm-3'
-const mobile = ' d-block d-md-none'
+const desktop = ' d-none d-lg-block font-weight-bolder ms-sm-3'
+const mobile = ' d-block d-lg-none'
 
 let textDark = ref(props.darkText)
 let deviceStyle = ref('')

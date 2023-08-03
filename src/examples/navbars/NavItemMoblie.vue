@@ -1,5 +1,5 @@
 <template>
-  <div class="row d-lg-none">
+  <div class="row d-lg-none mx-2">
     <div class="col-md-12 g-0">
       <a
         class="dropdown-item py-2 ps-3 border-radius-md"
