@@ -41,7 +41,6 @@ vue-material-kit-2
     │   │   ├── MaterialBadge.vue
     │   │   ├── MaterialButton.vue
     │   │   ├── MaterialCheckbox.vue
-    │   │   ├── MaterialInput.vue
     │   │   ├── MaterialPagination.vue
     │   │   ├── MaterialPaginationItem.vue
     │   │   ├── MaterialProgress.vue

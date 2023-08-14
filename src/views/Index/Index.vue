@@ -9,8 +9,31 @@ import Header from '../../examples/Header.vue'
 // import IndexCounter from './Components/IndexCounter.vue'
 import IndexExample from './Components/IndexExample.vue'
 import data from './Sections/Data/designBlocksData'
+import axios from 'axios'
 
 const pns = 'https://data.laulou.cn/images/bg9.jpg'
+
+axios
+  .get('https://data.laulou.cn/test-login')
+  .then(res => {
+    console.log(res)
+  })
+  .catch(err => {
+    console.log(err)
+  })
+
+let articlesData
+axios({
+    method: 'get',
+    url: 'https://data.laulou.cn/articles/all',
+  })
+  .then(res => {
+    articlesData = res.data
+    console.log(articlesData)
+  })
+  .catch(err => {
+    console.log(err)
+  })
 
 //hooks
 const body = document.getElementsByTagName('body')[0]

@@ -79,7 +79,7 @@ if (type.value === 'mobile') {
 
 watch(
   () => type.value,
-  (newValue) => {
+  newValue => {
     if (newValue === 'mobile') {
       textDark.value = true
     } else {
