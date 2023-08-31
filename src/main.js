@@ -4,7 +4,6 @@ import App from './App.vue'
 import router from './router'
 import mavonEditor from 'mavon-editor'
 import 'mavon-editor/dist/css/index.css'
-import './assets/css/github-markdown.css'
 import materialKit from './material-kit'
 
 const app = createApp(App)

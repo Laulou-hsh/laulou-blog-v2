@@ -1,5 +1,5 @@
 <script setup>
-import CountTo from 'vue-count-to/src'
+import {CountTo} from 'vue3-count-to'
 
 defineProps({
   count: {

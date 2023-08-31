@@ -33,7 +33,7 @@ module.exports = {
         tabWidth: 2,
         trailingComma: 'es5',
         proseWrap: 'preserve',
-        arrowParens: 'as-needed',
+        arrowParens: 'always',
       },
     ],
     'handle-callback-err': 0,

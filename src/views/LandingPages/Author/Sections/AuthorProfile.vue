@@ -2,7 +2,6 @@
 import MaterialAvatar from '@/components/MaterialAvatar.vue'
 import profilePic from '@/assets/img/Laulou.png'
 import rightArrow from '@/assets/img/right-arrow.svg'
-
 </script>
 <template>
   <section class="py-sm-7 py-5 position-relative">
@@ -30,7 +29,7 @@ import rightArrow from '@/assets/img/right-arrow.svg'
                 <p>
                   寒冬之所以可以被跨越，是因为有人燃烧自己的灵魂去融化冰雪，纵然这火焰微薄又脆弱，但它足以点燃希望的引线！
                 </p>
-                <a href="https://github.com/Laulou-hsh" class="text-danger move-right"
+                <a href="https://github.com/Laulou-hsh" class="text-danger move-right d-flex align-items-center"
                   >关于我
                   <img :src="rightArrow" class="rightArrow text-sm ms-1" />
                 </a>
@@ -44,10 +43,11 @@ import rightArrow from '@/assets/img/right-arrow.svg'
 </template>
 
 <style scoped>
-.move-right .rightArrow{
+.move-right .rightArrow {
   transition: all 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3);
 }
-.move-right:hover .rightArrow, .icon-move-right:focus .rightArrow {
+.move-right:hover .rightArrow,
+.icon-move-right:focus .rightArrow {
   transform: translateX(5px);
 }
 </style>
