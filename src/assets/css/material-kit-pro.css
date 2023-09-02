@@ -18480,7 +18480,7 @@ body.dark-version {
     opacity: 0;
   }
   .dropdown.nav-item .dropdown-menu-animation.show {
-    height: 250px;
+    height: 100%;
     opacity: 1;
   }
 }
@@ -30284,7 +30284,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
 
 .dropzone .dz-preview .dz-progress {
   opacity: 1;
-  z-index: 1000;
+  z-index: 1800;
   pointer-events: none;
   position: absolute;
   height: 16px;

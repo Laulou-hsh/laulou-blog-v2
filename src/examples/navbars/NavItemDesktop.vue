@@ -1,7 +1,7 @@
 <template>
   <div class="d-none d-lg-block">
-    <ul class="list-group">
-      <li class="nav-item list-group-item border-0 p-0">
+    <div class="list-group">
+      <div class="nav-item list-group-item border-0 p-0">
         <a
           class="dropdown-item py-2 ps-3 border-radius-md"
           href="https://www.creative-tim.com/learning-lab/vue/overview/material-kit/"
@@ -11,8 +11,8 @@
           </h6>
           <span class="text-sm">概述、快速入门、许可证和内容</span>
         </a>
-      </li>
-      <li class="nav-item list-group-item border-0 p-0">
+      </div>
+      <div class="nav-item list-group-item border-0 p-0">
         <a
           class="dropdown-item py-2 ps-3 border-radius-md"
           href="https://www.creative-tim.com/learning-lab/vue/colors/material-kit/"
@@ -22,8 +22,8 @@
           </h6>
           <span class="text-sm">查看颜色、图标和字体</span>
         </a>
-      </li>
-      <li class="nav-item list-group-item border-0 p-0">
+      </div>
+      <div class="nav-item list-group-item border-0 p-0">
         <a
           class="dropdown-item py-2 ps-3 border-radius-md"
           href="https://www.creative-tim.com/learning-lab/vue/alerts/material-kit/"
@@ -33,7 +33,7 @@
           </h6>
           <span class="text-sm">查看完全设计的组件</span>
         </a>
-      </li>
-    </ul>
+      </div>
+    </div>
   </div>
 </template>

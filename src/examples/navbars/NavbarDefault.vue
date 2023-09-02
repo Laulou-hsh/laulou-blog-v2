@@ -118,8 +118,8 @@ watch(
         </span>
       </button>
       <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
-        <ul class="navbar-nav navbar-nav-hover ms-auto">
-          <li class="nav-item dropdown dropdown-hover mx-2">
+        <div class="navbar-nav navbar-nav-hover ms-auto">
+          <div class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -157,15 +157,15 @@ watch(
                   </div>
                 </div>
               </div>
-              <div class="d-lg-none mx-4">
+              <div class="d-lg-none mx-4 my-1">
                 <div class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">主页</div>
                 <RouterLink :to="{name: 'author'}" class="dropdown-item border-radius-md">
                   <span>作者</span>
                 </RouterLink>
               </div>
             </div>
-          </li>
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          </div>
+          <div class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -185,8 +185,8 @@ watch(
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
             </a>
             <NavbarDropdownMenu />
-          </li>
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          </div>
+          <div class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -206,10 +206,10 @@ watch(
               <img :src="getArrowColor()" alt="down-arrow" class="arrow ms-1 d-lg-none d-block ms-auto" />
             </a>
             <NavItem />
-          </li>
+          </div>
           <!-- Github repo -->
           <Github :transparent="props.transparent" />
-        </ul>
+        </div>
       </div>
     </div>
   </nav>

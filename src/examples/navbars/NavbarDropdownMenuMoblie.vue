@@ -3,7 +3,7 @@ import {RouterLink} from 'vue-router'
 </script>
 
 <template>
-  <div class="row d-lg-none mx-2">
+  <div class="row d-lg-none m-2">
     <div class="col-md-12">
       <div class="d-flex mb-2">
         <div class="w-100 d-flex align-items-center justify-content-between">
